@@ -1,0 +1,69 @@
+.edit-text{padding:10px 15px;font-size:20px;position:relative;cursor:pointer;}
+.edit-text.active{border:1px dashed #289df0;}
+.edit-text img{display:none;}
+.edit-text a{display:inline-block;}
+/*对于字体设置样式的改变*/
+.bold{font-weight:bold;}
+.italic{font-style:italic;}
+.underline{text-decoration:underline;}
+.rotate90{transform:rotate(90deg);-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);}
+.center{text-align:center;}
+.left{text-align:left;}
+    /*字体大小*/
+.size10{font-size:10px;}.size12{font-size:12px;}.size14{font-size:14px;}.size16{font-size:16px;}.size18{font-size:18px;}
+.size20{font-size:20px;}.size30{font-size:30px;}.size40{font-size:40px;}
+    /*重置样式*/
+.edit-text a.resetStyle{
+background-color:#fff;
+font-weight:normal;
+font-style:normal;
+text-decoration:none;
+font-family:"microsoft yahei";
+font-size:16px;
+text-align:left;
+color:#000;
+transform:rotate(0);
+}
+.edit-text.active img{display:block;}
+.edit-text .edit-return{position:absolute;bottom:0;right:0;width:10px;height:10px;}
+.text-box{
+    margin-top:100px;
+    margin-left:50px;
+}
+.clearfix:after{
+    content:"";
+    clear:both;
+    display:block;
+}
+.fl{float:left;}
+.fr{float:right;}
+.edit-menu{width:100px;height:33px;border:1px solid #ddd;padding:4px 0;}
+.edit-menu>div:hover{cursor:pointer;}
+.item{width:30px;height:30px;}
+.edit-menu .edit-message{background:url('../assets/image/text/message.png') no-repeat center;background-size:60% 60%;}
+.edit-menu  .edit-href{position:relative;border-right:1px solid #ddd;background:url('../assets/image/text/link.png') no-repeat center;background-size:60% 60%;}
+.edit-menu  .edit-delete{width:30px;height:30px;background:url('../assets/image/text/delete.png') no-repeat center;background-size:60% 60%;}
+
+.edit-href .href-content{position:absolute;top:36px;z-index:10;display:none;width:1000%;border-left:1px solid #ddd;border-right:1px solid #ddd;border-bottom:1px solid #ddd;background-color:#fff;}
+.edit-href .no-border{width:10%;height:10px;background-color:#fff;}
+.edit-href .borders{width:90%;border-top:1px solid #ddd;}
+.edit-href .href-input{width:90%;margin:10px auto;}
+.edit-href .href-name{width:30%;text-align:left;line-height:30px;}
+.edit-href .href-con{width:68%;height:24px;margin-top:3px;border:1px solid #ddd;text-align:left;}
+.edit-href .href-confirm{width:50%;margin:10px auto;}
+.edit-href .href-btn{padding:4px 6px;border:1px solid #ddd;color:#fff;background-color:#289df0;}
+.edit-href .cancel-btn{color:#000;background-color:#fff;}
+/*编辑*/
+.edit-edit{border:1px solid #ddd;padding:4px 0;display:inline-block;}
+.edit-edit>div{cursor:pointer;}
+.edit-edit .bg .bg-item{margin:6px auto;width:18px;height:18px;border-radius:50%;background-color:#289df0;}
+.edit-edit .txt{text-align:center;line-height:33px;}
+.edit-edit .txt .underline{text-decoration:underline;}
+.edit-edit .txt .bold{font-weight:bold;}
+.edit-edit .select-style{margin:2px 0;padding:2px 2px;border:1px solid #ddd;height:26px;text-align:center;}
+.edit-edit .edit-size{margin-left:6px;}
+.edit-edit .rotate{background:url('../assets/image/text/unkonw.png') no-repeat center;background-size:60% 60%;}
+.edit-edit .center{background:url('../assets/image/text/center.png') no-repeat center;background-size:60% 60%;}
+.edit-edit .left{background:url('../assets/image/text/left.png') no-repeat center;background-size:60% 60%;}
+.edit-edit .link{border-right:1px solid #ddd;background:url('../assets/image/text/link.png') no-repeat center;background-size:60% 60%;}
+.edit-edit .reset{background:url('../assets/image/text/unknow1.png') no-repeat center;background-size:60% 60%;}
